@@ -1,0 +1,31 @@
+body {
+    background-color: #534e4e;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+#radio-inputs {
+    flex-direction: row;
+    width: 100%;
+    padding-top: 5px;
+}
+#radio-inputs > label {
+    width: fit-content;
+    margin-right: 1px;
+}
+#radio-inputs > input {
+    margin-left: 1px;
+    width: fit-content;
+}
